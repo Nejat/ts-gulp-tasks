@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationDir": "release",
+    "diagnostics": true,
+    "experimentalDecorators": true,
+    "listEmittedFiles": true,
+    "listFiles": true,
+    "outDir": "release",
+    "removeComments": true,
+    "rootDir": "src",
+    "sourceMap": true,
+    "types": [ "../typings/index.d.ts" ]
+  },
+  "exclude": [
+    "gulp-tasks",
+    "gulpfile.ts",
+    "node_modules",
+    "release",
+    "tests",
+    "typings"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ]
+}
