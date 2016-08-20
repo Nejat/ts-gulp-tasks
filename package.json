@@ -1,6 +1,6 @@
 {
   "name": "ts-gulp-tasks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Write Gulp Tasks with Typescript",
   "main": "./release/index.js",
   "readmeFilename": "README.md",

@@ -1,3 +1,7 @@
+[![npm version](https://badge.fury.io/js/ts-gulp-tasks.svg)](https://badge.fury.io/js/ts-gulp-tasks)
+Master: [![Build Status](https://travis-ci.org/Nejat/ts-gulp-tasks.svg?branch=master)](https://travis-ci.org/Nejat/ts-gulp-tasks)
+Develop: [![Build Status](https://travis-ci.org/Nejat/ts-gulp-tasks.svg?branch=develop)](https://travis-ci.org/Nejat/ts-gulp-tasks)
+
 :: [Usage](#usage)
 :: [API](#api)
 :: [Installation](#installation)
