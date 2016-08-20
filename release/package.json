@@ -1,0 +1,29 @@
+{
+  "name": "ts-gulp-tasks",
+  "version": "1.0.0",
+  "description": "Write Gulp Tasks with Typescript",
+  "main": "./index.js",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "gulp",
+    "gulpfile",
+    "task",
+    "typescript"
+  ],
+  "author": "Nejat <nejatoz@gmail.com> (https://github.com/nejat)",
+  "contributors": [
+    {
+      "name": "Nejat",
+      "email": "nejatoz@gmail.com",
+      "url": "https://github.com/nejat"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nejat/ts-gulp-tasks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nejat/ts-gulp-tasks/issues"
+  },
+  "license": "MIT"
+}

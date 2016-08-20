@@ -1,0 +1,6 @@
+{
+  "package"  : "http://json.schemastore.org/package",
+  "tsconfig" : "http://json.schemastore.org/tsconfig",
+  "tslint"   : "http://json.schemastore.org/tslint",
+  "typings"  : "http://json.schemastore.org/typings"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "ts-gulp-tasks",
+  "version": "1.0.0",
+  "description": "Write Gulp Tasks with Typescript",
+  "main": "./release/index.js",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "gulp",
+    "gulpfile",
+    "task",
+    "typescript"
+  ],
+  "author": "Nejat <nejatoz@gmail.com> (https://github.com/nejat)",
+  "contributors": [
+    {
+      "name": "Nejat",
+      "email": "nejatoz@gmail.com",
+      "url": "https://github.com/nejat"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nejat/ts-gulp-tasks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nejat/ts-gulp-tasks/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "set TS_NODE_PROJECT=gulp-tasks/tsconfig.json&& gulp build",
+    "test": "set TS_NODE_PROJECT=gulp-tasks/tsconfig.json&& gulp tests",
+    "postinstall": "typings i",
+    "bootstrap": "npm cache clean && npm i"
+  },
+  "devDependencies": {
+    "catch-stdout": "latest",
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-json": "latest",
+    "gulp-rename": "latest",
+    "gulp-tape": "latest",
+    "gulp-tslint": "latest",
+    "node-glob": "latest",
+    "sinon": "latest",
+    "tap": "latest",
+    "tap-colorize": "latest",
+    "tape": "latest",
+    "ts-node": "latest",
+    "tslint": "latest",
+    "typescript": "2.0.0",
+    "typings": "latest"
+  }
+}
