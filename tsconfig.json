@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationDir": "release",
+    "diagnostics": true,
+    "experimentalDecorators": true,
+    "listEmittedFiles": true,
+    "listFiles": true,
+    "outDir": "release",
+    "removeComments": true,
+    "rootDir": "src",
+    "sourceMap": true,
+    "typeRoots" : [
+      "typings/globals"
+    ],
+    "types": [
+      "chokidar",
+      "glob",
+      "glob-stream",
+      "gulp",
+      "gulp-tslint",
+      "minimatch",
+      "node",
+      "orchestrator",
+      "q",
+      "sinon",
+      "tape",
+      "undertaker",
+      "vinyl",
+      "vinyl-fs"
+    ]
+  },
+  "exclude": [
+    "gulp-tasks",
+    "gulpfile.ts",
+    "node_modules",
+    "release",
+    "tests",
+    "typings",
+    "json-schemas"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "typeRoots" : [
+      "../typings/globals"
+    ],
+    "types": [
+      "chokidar",
+      "glob",
+      "glob-stream",
+      "gulp",
+      "gulp-tslint",
+      "minimatch",
+      "node",
+      "orchestrator",
+      "q",
+      "sinon",
+      "tape",
+      "undertaker",
+      "vinyl",
+      "vinyl-fs"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "release",
+    "src",
+    "tests",
+    "typings"
+  ],
+  "files": [
+    "gulpfile.ts"
+  ]
+}
