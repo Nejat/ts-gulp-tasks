@@ -13,7 +13,25 @@
     "removeComments": true,
     "rootDir": "src",
     "sourceMap": true,
-    "types": [ "../typings/index.d.ts" ]
+    "typeRoots" : [
+      "typings/globals"
+    ],
+    "types": [
+      "chokidar",
+      "glob",
+      "glob-stream",
+      "gulp",
+      "gulp-tslint",
+      "minimatch",
+      "node",
+      "orchestrator",
+      "q",
+      "sinon",
+      "tape",
+      "undertaker",
+      "vinyl",
+      "vinyl-fs"
+    ]
   },
   "exclude": [
     "gulp-tasks",
@@ -21,7 +39,8 @@
     "node_modules",
     "release",
     "tests",
-    "typings"
+    "typings",
+    "json-schemas"
   ],
   "include": [
     "src/**/*.ts"

@@ -1,6 +1,6 @@
-const exec = require("child_process").exec;
+///<reference path="../lib/definitions.d.ts"/>
 
-import { ChildProcessExecCallback } from "./definitions";
+const exec = require("child_process").exec;
 
 export class ShellExec {
 
@@ -10,7 +10,7 @@ export class ShellExec {
 
   /**
    * process the output of all executed child processes
-   * @param done - signals task completion
+   * @param done - callback that signals task completion
    * @returns {ChildProcessExecCallback}
    */
   protected static execOutput (done: Function): ChildProcessExecCallback {

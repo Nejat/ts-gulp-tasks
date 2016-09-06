@@ -1,5 +1,3 @@
-///<reference path="../typings/index.d.ts"/>
-
 import * as gulp   from "gulp";
 import * as tslint from "gulp-tslint";
 
@@ -7,6 +5,7 @@ import { Task, Gulp } from "../src/index";
 
 import { settings }   from "./lib/gulp-settings";
 
+// noinspection JSUnusedLocalSymbols
 @Gulp(gulp)
 class Linting {
 

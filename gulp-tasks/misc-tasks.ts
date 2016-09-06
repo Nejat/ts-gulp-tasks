@@ -1,4 +1,4 @@
-///<reference path="../typings/index.d.ts"/>
+///<reference path="./lib/definitions.d.ts"/>
 
 import * as gulp from "gulp";
 
@@ -8,11 +8,12 @@ const json   = require("gulp-json");
 import { Task, Gulp } from "../src/index";
 
 import { settings }   from "./lib/gulp-settings";
-import { RenamePath } from "./lib/definitions";
 
+// noinspection JSUnusedLocalSymbols
 @Gulp(gulp)
 class MiscTasks {
 
+// noinspection JSUnusedGlobalSymbols
   /**
    * Task: "update-schemas"
    * downloads json schema files for ide support

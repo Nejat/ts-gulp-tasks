@@ -1,4 +1,4 @@
-///<reference path="../typings/index.d.ts"/>
+///<reference path="./lib/definitions.d.ts"/>
 
 import * as gulp from "gulp";
 
@@ -8,7 +8,6 @@ const tape        = require("gulp-tape");
 import { Task, Gulp } from "../src/index";
 
 import { settings }       from "./lib/gulp-settings";
-import { CoverageReport } from "./lib/definitions";
 import { TSCompile }      from "./lib/ts-compile";
 
 @Gulp(gulp)
@@ -31,7 +30,7 @@ class Testing extends TSCompile {
   /**
    * Task: "coverage"
    * requires "tests-build", runs unit tests w/tap to produce a code coverage report
-   * @param done - signals task completion
+   * @param done - callback that signals task completion
    */
   @Task("build-tests")
   static "coverage"(done: Function): void {
@@ -42,7 +41,7 @@ class Testing extends TSCompile {
   /**
    * Task: "tests-build"
    * requires "tests-lint", "tests-clean", compiles the typescript written tests using the locally installed version of typescript
-   * @param done - signals task completion
+   * @param done - callback that signals task completion
    */
   @Task("ts-lint-tests", "clean-tests")
   static "build-tests"(done: Function): void {

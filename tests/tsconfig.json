@@ -9,7 +9,25 @@
     "listEmittedFiles": true,
     "listFiles": true,
     "rootDir": "tests",
-    "types": [ "../typings/index.d.ts" ]
+    "typeRoots" : [
+      "../typings/globals"
+    ],
+    "types": [
+      "chokidar",
+      "glob",
+      "glob-stream",
+      "gulp",
+      "gulp-tslint",
+      "minimatch",
+      "node",
+      "orchestrator",
+      "q",
+      "sinon",
+      "tape",
+      "undertaker",
+      "vinyl",
+      "vinyl-fs"
+    ]
   },
   "exclude": [
     "gulpfile.ts",

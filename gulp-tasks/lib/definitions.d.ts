@@ -1,7 +1,7 @@
 /**
  * gulp-rename option patterns
  */
-export interface RenamePath {
+interface RenamePath {
   basename?: string;
   dirname?:  string;
   extname?:  string;
@@ -12,7 +12,7 @@ export interface RenamePath {
 /**
  * defines gulp task settings
  */
-export interface Settings {
+interface Settings {
   buildTsconfig:     string;          // tsconfig for compiling the project
   buildRenaming:     RenamePath;      // optional renaming rules for build
   compileOutput:     string;          // compilation output folder
@@ -30,11 +30,11 @@ export interface Settings {
 /**
  * defines the child_process.exec callback signature
  */
-export interface  ChildProcessExecCallback {
+interface  ChildProcessExecCallback {
   (error: Error, stdout: string, stderr: string): void;
 }
 
 /**
  * tap --coverage-report values
  */
-export type CoverageReport = "clover" | "cobertura" | "html" | "json" | "json-summary" | "teamcity" | "text" | "text-lcov" | "text-summary";
+type CoverageReport = "clover" | "cobertura" | "html" | "json" | "json-summary" | "teamcity" | "text" | "text-lcov" | "text-summary";

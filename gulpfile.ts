@@ -1,5 +1,3 @@
-///<reference path="./typings/index.d.ts"/>
-
 import * as gulp from "gulp";
 
 import { Task, Gulp } from "./src/index";

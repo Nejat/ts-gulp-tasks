@@ -47,7 +47,7 @@
     "tape": "latest",
     "ts-node": "latest",
     "tslint": "latest",
-    "typescript": "2.0.0",
+    "typescript": "rc",
     "typings": "latest"
   }
 }

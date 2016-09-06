@@ -1,6 +1,6 @@
-import * as fs   from "fs";
+///<reference path="../lib/definitions.d.ts"/>
 
-import { Settings } from "./definitions";
+import * as fs   from "fs";
 
 /**
  * optional, external settings file name

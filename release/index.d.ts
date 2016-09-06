@@ -1,3 +1,4 @@
+/// <reference types="gulp" />
 import * as gulp from "gulp";
 export interface GulpDecorator {
     (instance: gulp.Gulp): ClassDecorator;

@@ -1,5 +1,3 @@
-///<reference path="../typings/index.d.ts"/>
-
 import * as gulp from "gulp";
 import * as fs   from "fs";
 import * as glob from "glob";
@@ -56,7 +54,7 @@ class Cleansing {
   /**
    * Task: "clean"
    * removes javascript build files
-   * @param done - signals task completion
+   * @param done - callback that signals task completion
    */
   @Task()
   static "clean"(done: Function): void {
@@ -72,7 +70,7 @@ class Cleansing {
   /**
    * Task: "clean"
    * removes javascript tests build files
-   * @param done - signals task completion
+   * @param done - callback that signals task completion
    */
   @Task()
   static "clean-tests"(done: Function): void {
@@ -84,10 +82,11 @@ class Cleansing {
     done();
   }
 
+  // noinspection JSUnusedGlobalSymbols
   /**
    * Task: "clean-up"
    * deletes the project's residual output files
-   * @param done - signals task completion
+   * @param done - callback that signals task completion
    */
   @Task()
   static "clean-up" (done: Function): void {
@@ -99,10 +98,11 @@ class Cleansing {
     done();
   }
 
+  // noinspection JSUnusedGlobalSymbols
   /**
    * Task: "clean-reset"
    * deletes all non-essential project files, including dev dependencies and residual project files
-   * @param done - signals task completion
+   * @param done - callback that signals task completion
    */
   @Task()
   static  "clean-reset" (done: Function): void {
